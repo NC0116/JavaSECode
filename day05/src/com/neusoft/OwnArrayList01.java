@@ -3,7 +3,7 @@ package com.neusoft;
 public class OwnArrayList01 {
     // 定义成员变量
     // data 数组 存储数据
-    private int[] data;
+    private int data[];
     // 集合中有效元素的个数
     private int size;
     // 构造函数， 传入数组的初始容量
