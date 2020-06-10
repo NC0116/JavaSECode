@@ -9,5 +9,6 @@ public class ExtendDemoTest08 {
         Cat cat1 = new Cat("淘气猫");
         cat1.equals(cat1);
         cat1.toString();
+        new Object();
     }
 }
