@@ -1,7 +1,16 @@
 package com.neusoft;
 
 public class Person {
+    private String name;
+    private int age;
     private boolean live = true;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+
 
     //创建内部类
     class Heart {
@@ -22,4 +31,16 @@ public class Person {
     public void setLive(boolean live) {
         this.live = live;
     }
+
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", live=" + live +
+                '}';
+    }
+
+
 }
