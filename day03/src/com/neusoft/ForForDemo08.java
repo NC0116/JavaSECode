@@ -12,5 +12,4 @@ public class ForForDemo08 {
             System.out.println();
         }
     }
-
 }

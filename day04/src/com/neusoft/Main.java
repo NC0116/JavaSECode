@@ -8,8 +8,7 @@ public class Main {
 
 
 
-    //
-        int[] arr3 = new int[]{1, 3, 4, 5};
+    //        int[] arr3 = new int[]{1, 3, 4, 5};
         int[] arr2 = {1, 3, 4, 5};
         System.out.println(arr[0]);//值是什么
         int[] arr4 = new int[3];
