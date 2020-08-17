@@ -10,7 +10,6 @@ public class JDBCDemo6 {
         try {
             conn = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/java9", "root", "root");
-
             String sql = "select * from account;";
             stmt = conn.createStatement();
             // 封装查询结果
@@ -30,7 +29,6 @@ public class JDBCDemo6 {
             e.printStackTrace();
         } finally {
             // 释放资源
-
             if (stmt != null) {
                 try {
                     stmt.close();
@@ -38,7 +36,6 @@ public class JDBCDemo6 {
                     e.printStackTrace();
                 }
             }
-
             if (conn != null) {
                 try {
                     conn.close();
@@ -53,8 +50,6 @@ public class JDBCDemo6 {
                     e.printStackTrace();
                 }
             }
-
-
         }
     }
 }
