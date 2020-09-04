@@ -31,7 +31,7 @@
 
  HashMap<String, Object> map = new HashMap<>();
  map.put("sname","赵四");
- map.put("gender",24);
+ map.put("gender","男");
  map.put("user",user);
  request.setAttribute("map",map);
 
